@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+   <div class ="project-container">
+    <h1 class ="project-tittle">todo-input</h1>
+    <div class="todo-list-container">
+      <div class ="todo-form">
+        <input type="text" id="taskInput" placeholder="New Task"><br>
+     
+        <button  id="todo-add-btn" onclick="addTodoItem()">Add new task</button>
+
+      </div>
+    </div>
+    <div class="task-list">
+        <h2>Todo list</h2>
+        <ul id="taskList"></ul>
+        <div class="buttons">
+            <button id="all">All</button>
+            <button id="done">Done</button>
+            <button id="todo">Todo</button>
+        </div>
+        
+            <div class="delete-buttons">
+                <button id="delete-done" class="danger">Delete Done Tasks</button>
+                <button id="delete-all" class="danger">Delete All Tasks</button>
+            </div>
+        
+
+   </div>
+   <script src="java script.js"></script>
+
+    
+</body>
+</html>
